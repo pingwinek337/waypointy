@@ -1,0 +1,35 @@
+name: build
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Uloz pliki w foldery
+        run: |
+          mkdir -p src/main/java/dev/waypointmanager
+          mkdir -p src/main/resources/assets/waypointmanager/lang
+          mkdir -p gradle/wrapper
+          mv *.java src/main/java/dev/waypointmanager/
+          mv en_us.json pl_pl.json src/main/resources/assets/waypointmanager/lang/
+          mv fabric.mod.json src/main/resources/
+          mv gradle-wrapper.jar gradle-wrapper.properties gradle/wrapper/
+      - uses: gradle/actions/setup-gradle@v4
+      - name: Build
+        run: |
+          chmod +x gradlew
+          ./gradlew build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: waypointmanager-mod
+          path: |
+            build/libs/*.jar
+            !build/libs/*-sources.jar
