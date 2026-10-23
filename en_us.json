@@ -1,0 +1,35 @@
+{
+  "key.categories.waypointmanager": "Waypoint Manager",
+  "key.waypointmanager.open": "Open waypoint manager",
+  "key.waypointmanager.add": "Add waypoint at my position",
+  "key.waypointmanager.toggle": "Toggle waypoint markers",
+
+  "waypointmanager.screen.list": "Waypoints",
+  "waypointmanager.screen.add": "New waypoint",
+  "waypointmanager.screen.edit": "Edit waypoint",
+
+  "waypointmanager.list.empty": "No waypoints yet. Click \"+ Add\" to create one.",
+  "waypointmanager.list.page": "Page %s/%s",
+
+  "waypointmanager.button.add": "+ Add",
+  "waypointmanager.button.edit": "Edit",
+  "waypointmanager.button.markers": "Markers: %s",
+  "waypointmanager.button.hud": "HUD list: %s",
+  "waypointmanager.button.here": "My position",
+  "waypointmanager.button.dimension": "Dim: %s",
+  "waypointmanager.button.save": "Save",
+
+  "waypointmanager.dimension.overworld": "Overworld",
+  "waypointmanager.dimension.nether": "Nether",
+  "waypointmanager.dimension.end": "End",
+
+  "waypointmanager.field.name": "Name",
+  "waypointmanager.field.color": "Color (#RRGGBB)",
+
+  "waypointmanager.error.name": "Enter a name.",
+  "waypointmanager.error.coords": "X, Y and Z must be whole numbers.",
+
+  "waypointmanager.message.added": "Waypoint \"%s\" added.",
+  "waypointmanager.message.markers": "Waypoint markers: %s",
+  "waypointmanager.default_name": "Waypoint %s"
+}

@@ -1,0 +1,35 @@
+{
+  "key.categories.waypointmanager": "Waypoint Manager",
+  "key.waypointmanager.open": "Otwórz manager waypointów",
+  "key.waypointmanager.add": "Dodaj waypoint na mojej pozycji",
+  "key.waypointmanager.toggle": "Włącz/wyłącz znaczniki waypointów",
+
+  "waypointmanager.screen.list": "Waypointy",
+  "waypointmanager.screen.add": "Nowy waypoint",
+  "waypointmanager.screen.edit": "Edytuj waypoint",
+
+  "waypointmanager.list.empty": "Brak waypointów. Kliknij \"+ Dodaj\", aby stworzyć pierwszy.",
+  "waypointmanager.list.page": "Strona %s/%s",
+
+  "waypointmanager.button.add": "+ Dodaj",
+  "waypointmanager.button.edit": "Edytuj",
+  "waypointmanager.button.markers": "Znaczniki: %s",
+  "waypointmanager.button.hud": "Lista HUD: %s",
+  "waypointmanager.button.here": "Moja pozycja",
+  "waypointmanager.button.dimension": "Wymiar: %s",
+  "waypointmanager.button.save": "Zapisz",
+
+  "waypointmanager.dimension.overworld": "Świat",
+  "waypointmanager.dimension.nether": "Nether",
+  "waypointmanager.dimension.end": "End",
+
+  "waypointmanager.field.name": "Nazwa",
+  "waypointmanager.field.color": "Kolor (#RRGGBB)",
+
+  "waypointmanager.error.name": "Wpisz nazwę.",
+  "waypointmanager.error.coords": "X, Y i Z muszą być liczbami całkowitymi.",
+
+  "waypointmanager.message.added": "Dodano waypoint \"%s\".",
+  "waypointmanager.message.markers": "Znaczniki waypointów: %s",
+  "waypointmanager.default_name": "Waypoint %s"
+}

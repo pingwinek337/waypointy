@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "waypointmanager",
+  "version": "${version}",
+  "name": "Waypoint Manager",
+  "description": "Prosty manager waypointow: dodawanie przez GUI (nazwa, XYZ, kolor), znaczniki w swiecie i odleglosc do kazdego waypointa.",
+  "authors": [
+    "Waypoint Manager"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.waypointmanager.WaypointManagerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
